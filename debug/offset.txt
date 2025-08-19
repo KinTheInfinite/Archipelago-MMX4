@@ -1,0 +1,16 @@
+itempickupclears 0xd7044
+archipelagoc 0xd7444
+updategamejumps 0x19ee0
+bosskilljumps 0x16a10
+armorpickupjumps 0xaf9e8
+itempickupjumps 0xa8be8
+stageaccessjumps 0x17774
+bossesalwaysspawns 0xa36e4
+armoralwaysspawns 0xaeec4
+armoralwaysspawn2s 0xaeef4
+armoralwaysspawn3s 0xaeee8
+tanksalwaysspawns 0xa84ac
+sigmavisibles 0x0
+normalvisibles 0x54
+introselectables 0x18a34
+normalselectables 0x18a50

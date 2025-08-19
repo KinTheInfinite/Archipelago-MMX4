@@ -1,0 +1,23 @@
+{
+    "configurations":[
+        {
+            "type": "gdb",
+            "request": "attach",
+            "name": "(gdb) Debug Mod",
+            "target": "127.0.0.1:3333",
+            "remote": true,
+            "stopAtConnect": true,
+            "executable": "debug/mod.elf",
+            "gdbpath": "/usr/bin/gdb-multiarch",
+            "windows": {
+                "gdbpath": "C:/Users/Kin/AppData/Roaming/mips/mips/bin/gdb.exe"
+            },
+            "cwd": "${workspaceRoot}",
+            "autorun": [
+                "set confirm off",
+                "set substitute-path /project ."
+            ],
+            "valuesFormatting": "parseText"
+        }
+    ]
+}

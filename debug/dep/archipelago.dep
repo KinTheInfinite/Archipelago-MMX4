@@ -1,0 +1,14 @@
+src/archipelago/archipelago.o: src/archipelago/archipelago.c \
+ c:\users\kin\desktop\psx-modding-toolchain-main\tools\gcc-psyq-converted\include\sys\types.h \
+ src/archipelago/archipelago.h \
+ C:\Users\Kin\Desktop\psx-modding-toolchain-main\games\MegaManX4\include/common.h \
+ c:\users\kin\appdata\roaming\mips\mips\lib\gcc\mipsel-none-elf\11.2.0\include\stdint.h \
+ c:\users\kin\appdata\roaming\mips\mips\lib\gcc\mipsel-none-elf\11.2.0\include\stdint-gcc.h \
+ c:\users\kin\appdata\roaming\mips\mips\lib\gcc\mipsel-none-elf\11.2.0\include\stdbool.h \
+ c:\users\kin\desktop\psx-modding-toolchain-main\tools\gcc-psyq-converted\include\libcd.h \
+ C:\Users\Kin\Desktop\psx-modding-toolchain-main\games\MegaManX4\include/object.h \
+ C:\Users\Kin\Desktop\psx-modding-toolchain-main\games\MegaManX4\include/gpu.h \
+ c:\users\kin\desktop\psx-modding-toolchain-main\tools\gcc-psyq-converted\include\libgte.h \
+ c:\users\kin\desktop\psx-modding-toolchain-main\tools\gcc-psyq-converted\include\libgpu.h \
+ C:\Users\Kin\Desktop\psx-modding-toolchain-main\games\MegaManX4\include/layer.h \
+ C:\Users\Kin\Desktop\psx-modding-toolchain-main\games\MegaManX4\include/misc.h

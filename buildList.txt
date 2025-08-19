@@ -1,0 +1,45 @@
+// Mod name for Archipelago to read
+american, exe, 0x800F1740, 0x0, src/archipelago/mmx4_archipelago.txt
+
+// Main mod file
+american, exe, 0x800EE558, 0x0, src/archipelago/itempickupclear.s
+american, exe, 0x800EE958, 0x0, src/archipelago/archipelago.c
+
+// Makes a jump and link in an area that updates when in game
+american, exe, 0x800313F4, 0x0, src/archipelago/updategamejump.s
+
+// Overwrites part that runs when boss dies with us saving a value
+american, exe, 0x8002DF24, 0x0, src/archipelago/bosskilljump.s
+
+// Overwrites part that saves armor pickups with us saving it
+american, exe, 0x800C6EFC, 0x0, src/archipelago/armorpickupjump.s
+
+// Overwrites jump and link from collision check with the item
+american, exe, 0x800C00FC, 0x0, src/archipelago/itempickupjump.s
+
+// Stage Access Checks, reorder so jump doesn't affect v0
+american, exe, 0x8002EC88, 0x0, src/archipelago/stageaccessjump.s
+
+// Skips armor animation, necessary so Zero doesn't crash the game
+//american, exe, 0x800C6EF0, 0x0, src/skip_armor_animation/skiparmoranimation.s
+
+// Makes bosses always spawn by not changing this value when we have the weapon of the stage
+american, exe, 0x800BABF8, 0x0, src/bosses_always_spawn/bossesalwaysspawn.s
+
+// Makes sure armor capsules never get deleted so we can pick them up for archipelago
+american, exe, 0x800C63D8, 0x0, src/armor_always_spawn/armoralwaysspawn.s
+american, exe, 0x800C6408, 0x0, src/armor_always_spawn/armoralwaysspawn2.s
+american, exe, 0x800C63FC, 0x0, src/armor_always_spawn/armoralwaysspawn3.s
+
+// Make sure tanks never get deleted so we can pick them up for archipelago
+american, exe, 0x800BF9C0, 0x0, src/tanks_always_spawn/tanksalwaysspawn.s
+
+// Escape Button Always Available
+american, exe, 0x80017514, 0x0, src/escape_button/sigmavisible.s
+american, exe, 0x80017568, 0x0, src/escape_button/normalvisible.s
+american, exe, 0x8002FF48, 0x0, src/escape_button/introselectable.s
+american, exe, 0x8002FF64, 0x0, src/escape_button/normalselectable.s
+
+// Unused examples
+//american, exe, 0x800F1740, 0x0, src/stage_access/stageaccess.c
+//american, exe, 0x800EE558, 0x0, src/archipelago/archipelago.c src/stage_access/stageaccess.c
